@@ -1,5 +1,5 @@
 function formatMessage(message, maxLength) {
-    if (maxLength <= message.length) {
+   if (message.length <= maxLength) {
         return message;
     } else {
         return message.slice(0, maxLength) + '...';
